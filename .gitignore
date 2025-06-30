@@ -1,0 +1,4 @@
+.env
+server/node_modules
+paymentintegration/node_modules
+paymentintegration/.env
