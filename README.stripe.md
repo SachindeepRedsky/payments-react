@@ -85,7 +85,7 @@ export default App;
 
 - StripeCheckout.js and write your frontend code.
 - For Reference:
-[StripeCheckout.js](/paymentintegration/src/StripeCheckout.js)
+[StripeCheckout.js](/paymentreact/src/StripeCheckout.js)
 
 ## 💳 Step 5: Test Payments in Frontend
 

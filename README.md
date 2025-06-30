@@ -76,7 +76,7 @@ Steps:
 ## 🧩 Step 6.1: Create RazorpayCheckout Component
 
 - RazorpayCheckout.js and write your frontend code.
-  - For Reference:    [RazorpayCheckout.js](/paymentintegration/src/RazorpayCheckout.js)
+  - For Reference:    [RazorpayCheckout.js](/paymentreact/src/RazorpayCheckout.js)
 
 ## 💳 Step 6.2: Test Payments in Frontend
 - Fill in the card form using this test card:
