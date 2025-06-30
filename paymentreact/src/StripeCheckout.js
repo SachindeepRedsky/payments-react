@@ -3,7 +3,7 @@ import { useStripe, useElements, PaymentElement, AddressElement, LinkAuthenticat
 import { useNavigate } from "react-router-dom";// Import useNavigate from react-router-dom for navigation
 
 const CheckoutForm = ({ setClear }) => {// Define the CheckoutForm component
-  const stripe = useStripe();// Get the Stripe instance using useStripe hook
+  const stripe = useStripe()// Get the Stripe instance using useStripe hook
   const elements = useElements();// Get the Elements instance using useElements hook
   const [loading, setLoading] = useState(false);// Initialize loading state to manage the button state during payment processing
 

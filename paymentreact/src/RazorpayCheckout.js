@@ -1,5 +1,3 @@
-import React from "react";
-
 const RazorpayCheckout = ({ amount, setClear }) => {
   // Function to load Razorpay SDK and create an order
   const loadRazorpay = async () => {

@@ -3,7 +3,7 @@ import MainPaymentApp from "./MainPaymentApp";
 import Success from "./Success";
 import { Elements } from "@stripe/react-stripe-js";// Import Elements from Stripe to wrap the checkout form
 import { loadStripe } from "@stripe/stripe-js";
-const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_ID);
+const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_ID)
 
 function App() {
   return (

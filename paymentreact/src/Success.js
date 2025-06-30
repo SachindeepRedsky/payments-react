@@ -21,7 +21,7 @@ const Success = () => {
       navigate("/");
     }, 10);
 
-    return () => clearTimeout(timeout);
+    return () => clearTimeout(timeout)
   }, [searchParams, navigate]);
 
   return (

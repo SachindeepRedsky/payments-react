@@ -4,7 +4,7 @@ import CheckoutForm from "./StripeCheckout";
 import { Elements } from "@stripe/react-stripe-js";// Import Elements from Stripe to wrap the checkout form
 import { loadStripe } from "@stripe/stripe-js";// Import loadStripe to initialize Stripe with the public 
 
-const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_ID);// Load Stripe with the public key from environment variables
+const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_ID)// Load Stripe with the public key from environment variables
 
 function MainPaymentApp() {// Main component for the payment application
     const [amount,   setClear] = useState("");// State to hold the amount entered by the user
